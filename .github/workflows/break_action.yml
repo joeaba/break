@@ -45,5 +45,7 @@ jobs:
           npm ci
           npm run format
           npm run lint
+          
+          
           npm run build
           npm run test   
