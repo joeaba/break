@@ -3,9 +3,9 @@
 name: node_js
 on:
   push:
-    branches: [master]
+    branches: [main]
   pull_request:
-    branches: [master]
+    branches: [main]
 
 jobs:
   client:       
@@ -45,7 +45,5 @@ jobs:
           npm ci
           npm run format
           npm run lint
-          
-          
           npm run build
           npm run test   
