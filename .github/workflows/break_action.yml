@@ -8,9 +8,10 @@ on:
 jobs:
     build:
      runs-on: ubuntu-latest
-     strategy:
-      matrix:
-        package: [client, server]
+#      strategy:
+#       matrix:
+     env:
+          PACKAGE_LOCATION: client, server
      steps:
       - name: Checkout repo
         uses: actions/checkout@v2
