@@ -9,7 +9,7 @@ updates:
   directory: "/client"
   schedule:
     interval: daily
-    time: "18:28"
+    time: "06:05"
     timezone: America/Los_Angeles
   labels:
     - "automerge"
@@ -19,7 +19,7 @@ updates:
   directory: "/server"
   schedule:
     interval: daily
-    time: "18:28"
+    time: "06:05"
     timezone: America/Los_Angeles
   labels:
     - "automerge"
